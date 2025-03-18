@@ -1,0 +1,13 @@
+# Ignore all by default, so only relevant files are explicitly added to git in a whitelisting fashion.
+/*
+
+# Whitelist folders
+!/apps
+!/test
+
+# Whitelist files
+!.gitignore
+!LICENSE.md
+!README.md
+!package.json
+!package-lock.json
