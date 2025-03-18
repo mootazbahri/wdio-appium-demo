@@ -22,7 +22,7 @@ const capsPerPlatform = process.env.IOS_SESSION === 'true'
     : {
       platformName: 'Android',
       'appium:deviceName': process.env.DEVICE_NAME || 'Google Pixel.*',
-      // 'appium:app': `storage:filename=${APK_SL_FAKE_COUNTER_APP}`, // Add your app here
+      // 'appium:app': `storage:filename=${APK_SL_FAKE_COUNTER_APP}`, // TODO Add your app here
       'appium:platformVersion': '1[0-9]',
       'sauce:options': {
         name: testName,
